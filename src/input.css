@@ -10,7 +10,12 @@
 
     .nav-item {
         @apply
-        text-sky-500 px-5 py-2.5;
+        text-sky-500 px-3.5 py-2.5;
+    }
+
+    .nav-item:hover {
+        @apply
+        bg-sky-500 text-white;
     }
 }
 
