@@ -7,4 +7,10 @@
         @apply
         text-[2rem] leading-tight tracking-normal font-Microsoft text-gray-800 mb-2;
     }
+
+    .nav-item {
+        @apply
+        text-sky-500 px-5 py-2.5;
+    }
 }
+

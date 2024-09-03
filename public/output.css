@@ -564,6 +564,15 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+.nav-item {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -594,6 +603,10 @@ video {
 
 .inline-block {
   display: inline-block;
+}
+
+.hidden {
+  display: none;
 }
 
 .w-\[9\.5rem\] {
@@ -661,6 +674,11 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .py-3 {
@@ -787,3 +805,14 @@ video {
     padding-right: 6.25%;
   }
 }
+
+@media (min-width: 920px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+}
+
