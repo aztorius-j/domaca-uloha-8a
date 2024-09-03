@@ -16,7 +16,10 @@ module.exports = {
       fontFamily: {
         Arimo: ["Arimo"],
         Microsoft: ["Microsoft Sans Serif"],
-      }
+      },
+      boxShadow: {
+        'even-shadow': '0 0 4px rgba(0, 0, 0, 0.15)', // Tieň rovnomerne na všetkých stranách
+      },
     },
   },
   plugins: [],
