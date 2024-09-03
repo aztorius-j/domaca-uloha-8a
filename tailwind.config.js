@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Arimo: ["Arimo"],
+        Microsoft: ["Microsoft Sans Serif"],
       }
     },
   },
