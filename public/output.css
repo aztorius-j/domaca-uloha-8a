@@ -963,6 +963,10 @@ video {
     margin-bottom: 0.25rem;
   }
 
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
   .lg\:box-content {
     box-sizing: content-box;
   }
