@@ -592,10 +592,6 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-11 {
-  margin-bottom: 2.75rem;
-}
-
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -608,6 +604,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -616,8 +616,8 @@ video {
   margin-right: 0.5rem;
 }
 
-.mr-3 {
-  margin-right: 0.75rem;
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mt-4 {
@@ -666,6 +666,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .items-start {
@@ -736,6 +740,10 @@ video {
   padding: 0.25rem;
 }
 
+.p-2\.5 {
+  padding: 0.625rem;
+}
+
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
@@ -769,11 +777,6 @@ video {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-6 {
@@ -915,16 +918,12 @@ video {
 }
 
 @media (min-width: 920px) {
-  .lg\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
-  .lg\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .lg\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .lg\:box-content {
@@ -943,16 +942,12 @@ video {
     display: none;
   }
 
-  .lg\:w-\[1200px\] {
-    width: 1200px;
-  }
-
-  .lg\:min-w-\[840px\] {
-    min-width: 840px;
-  }
-
   .lg\:max-w-\[1200px\] {
     max-width: 1200px;
+  }
+
+  .lg\:grow {
+    flex-grow: 1;
   }
 
   .lg\:justify-center {
@@ -971,53 +966,13 @@ video {
     padding: 2.75rem;
   }
 
-  .lg\:p-\[6\%\] {
-    padding: 6%;
-  }
-
-  .lg\:p-\[2\%\] {
-    padding: 2%;
-  }
-
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 
-  .lg\:pb-7 {
-    padding-bottom: 1.75rem;
-  }
-
   .lg\:pt-14 {
     padding-top: 3.5rem;
-  }
-
-  .lg\:pb-\[5\%\] {
-    padding-bottom: 5%;
-  }
-
-  .lg\:pb-\[2\%\] {
-    padding-bottom: 2%;
-  }
-
-  .lg\:pb-\[1\%\] {
-    padding-bottom: 1%;
-  }
-
-  .lg\:pb-\[0\.5\%\] {
-    padding-bottom: 0.5%;
-  }
-
-  .lg\:pb-\[0\.33\%\] {
-    padding-bottom: 0.33%;
-  }
-
-  .lg\:pb-\[0\.1\%\] {
-    padding-bottom: 0.1%;
-  }
-
-  .lg\:pb-8 {
-    padding-bottom: 2rem;
   }
 }
 
